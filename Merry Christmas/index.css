@@ -1,0 +1,28 @@
+.hidden {
+    display: none;
+}
+
+div > img, div > a > img {
+    width: 500px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; /* 높이를 강제 지정하지 않고 padding 사용 */
+}
+
+body {
+    background-color: #FFE4E4;
+    font-family: "Noto Sans KR", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: #FFA3A3;
+    margin: 20px 0;
+}
